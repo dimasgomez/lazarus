@@ -10,7 +10,7 @@ A resilient, GUI-based download tool integrated into **Nemo File Manager**, desi
 It also works straight of the terminal, you only need to copy the link first.
 
    ```bash
-      nemo_downloader_ui_ressurector.py [path]
+      nemo_downloader_ui_ressurector.py [path_to_save_file]
    ```
 
 ## ✨ Features
