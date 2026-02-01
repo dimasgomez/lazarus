@@ -3,9 +3,15 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Linux](https://img.shields.io/badge/Linux-Mint%20%7C%20Nemo-green.svg)
 
-Uma ferramenta gráfica simples e resiliente integrada ao **Nemo File Manager** para gerenciar downloads instáveis (focada no Anna's Archive).
+Uma ferramenta de download resiliente com interface gráfica, integrada ao **Nemo File Manager** e projetada especificamente para downloads instáveis (como os do [Anna's Archive](https://annas-archive.li/)).
 
-O **Lazarus** foi projetado para ressuscitar downloads falhos. Se um download cai na metade, ele detecta o arquivo parcial, verifica o tamanho remoto e continua exatamente de onde parou (Range Request), validando o hash SHA256 ao final.
+O **Lazarus** foi construído para "ressuscitar" downloads falhos. Se um download cair na metade, ele detecta o arquivo parcial, verifica o tamanho remoto e continua exatamente de onde parou (usando HTTP Range Requests), validando o hash SHA256 ao final. Tudo o que você precisa fazer é clicar com o botão direito (opcional) na mesma pasta e mandar baixar de novo. E de novo. Até a vitória.
+
+Ele também funciona direto do terminal, basta ter copiado o link do Download antes de executar:
+
+```bash
+   nemo_downloader_ui_ressurector.py [destino]
+```
 
 ## ✨ Funcionalidades
 
