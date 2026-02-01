@@ -3,9 +3,15 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Linux](https://img.shields.io/badge/Linux-Mint%20%7C%20Nemo-green.svg)
 
-A resilient, GUI-based download tool integrated into **Nemo File Manager**, designed specifically for unstable downloads (like those from Anna's Archive).
+A resilient, GUI-based download tool integrated into **Nemo File Manager**, designed specifically for unstable downloads (like those from [Anna's Archive](https://annas-archive.li/)).
 
-**Lazarus** is built to "resurrect" failed downloads. If a download drops halfway, it detects the partial file, checks the remote size, and resumes exactly where it left off (using HTTP Range Requests), verifying the SHA256 hash upon completion.
+**Lazarus** is built to "resurrect" failed downloads. If a download drops halfway, it detects the partial file, checks the remote size, and resumes exactly where it left off (using HTTP Range Requests), verifying the SHA256 hash upon completion. All you have to do is right-click in the same folder and try to download it again. And again. until victory.
+
+It also works straight of the terminal, you only need to copy the link first.
+
+   ```bash
+      nemo_downloader_ui_ressurector.py
+   ```
 
 ## ✨ Features
 
