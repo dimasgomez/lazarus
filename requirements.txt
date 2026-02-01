@@ -1,2 +1,9 @@
-PySide6
-urllib3
+# GUI Framework
+PySide6>=6.5.0,<7.0.0
+
+# HTTP library (already included in Python standard library, but pinned for clarity)
+# urllib3 is used internally by urllib.request, no need to list it separately
+# unless you're using it directly in your code
+
+# If you ARE using urllib3 directly:
+# urllib3>=2.0.0,<3.0.0
