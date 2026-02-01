@@ -1,8 +1,7 @@
 [Nemo Action]
 Active=true
-Name=Baixar URL aqui (Lazarus Downloader for Anna's Archive)
-Comment=Interface gráfica para download
-# Usamos python3 diretamente. Como está no PATH via link, pode chamar direto.
+Name=Download with Lazarus
+Comment=Interface resiliente para download de link do Anna's Archive
 Exec=nemo_downloader_ui_ressurector.py "%P"
 Selection=None
 Extensions=dir;none;
