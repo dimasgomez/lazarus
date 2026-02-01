@@ -1,0 +1,8 @@
+[Nemo Action]
+Active=true
+Name=Download with Lazarus
+Comment=Resilient interface for Anna's Archive Slow downloads
+Exec=nemo_downloader_ui_ressurector.py "%P"
+Selection=None
+Extensions=dir;none;
+Icon-Name=lazarus-downloader
